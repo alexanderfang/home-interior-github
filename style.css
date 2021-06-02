@@ -1,0 +1,119 @@
+* {
+    font-family: "Poppins";
+    scroll-behavior: smooth;
+}
+
+nav{
+    width: 100%;
+    height: 4rem;
+    position: fixed;
+    z-index: 2;
+    font-size:1rem;
+    color: #f4f4f4;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 0 2rem;
+}
+
+nav .nav-item{
+    padding: 0 2rem;
+    text-decoration: none;
+    font-size:1rem;
+    color: #f4f4f4;
+}
+
+.logo {
+    display: block;
+    text-indent: -9999px;
+    width: 3rem;
+    height: 3rem;
+    background: url(images/logo.svg);
+    background-size: 3rem 3rem;
+}
+
+.container-half-vh h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 5rem;
+    width: 100%;
+    color: rgb(210,210,0);
+    stroke: 2px solid red;
+    padding: 2rem 0;
+}
+
+div.card{
+    width: 18rem;
+    max-height: 36rem;
+    margin-bottom: 2rem;
+}
+
+.card-subtitle{
+    font-size: 0.8em;
+}
+
+.carousel-item{
+    transition: transform 4s ease, opacity .5s ease-out;
+}
+
+.carousel-quotes{
+    position: absolute;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.8);
+    color: #f4f4f4;
+    padding: 1rem 1rem;
+    font-size: 2vh;
+    max-width: 30vw;
+    max-height: 40vh;
+}
+
+.cq-decor-font{
+    font-style: italic;
+}
+
+.cq-1{
+    top: 10%;
+    left: 10%;
+}
+
+.cq-2{
+    bottom: 10%;
+    right: 10%;
+}
+
+.cq-3{
+    top: 10%;
+    left: 10%;
+}
+
+.cq-4{
+    bottom: 10%;
+    right: 10%;
+}
+
+.container-full-vh{
+    height: 100vh;
+    padding: 0 0;
+}
+
+.container-half-vh{
+    background: #f0e4d7;
+}
+
+.container-full-vh img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.container-half-vh img{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+}
+
+.cu-container{
+    background-color: #faf4ee;
+    padding: 2rem 2rem;
+}
+
+footer{
+    background-color: #f0e4d7;
+}
